@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.222741">
+<testcase classname="Title of your feature" name="Title of your scenario" time="22.222741">
+<system-out><![CDATA[Given customer is on Booking page...........................................passed
+When customer enters booking details with firstname lastname  email address mobno.passed
+Then custoomer will get customer ID.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

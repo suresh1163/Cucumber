@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13372554121,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer is on Booking page",
+            "match": {
+              "location": "oneDimensional.customer_is_on_Booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8786959324,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enters booking details with firstname lastname  email address mobno",
+            "match": {
+              "location": "oneDimensional.customer_enters_booking_details_with_firstname_lastname_email_address_mobno(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "suresh",
+                  "d",
+                  "suresh@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57748943,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "custoomer will get customer ID",
+            "match": {
+              "location": "oneDimensional.custoomer_will_get_customer_ID()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sameple1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
